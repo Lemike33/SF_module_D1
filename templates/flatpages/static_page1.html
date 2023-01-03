@@ -1,0 +1,12 @@
+{% extends 'flatpages/base.html' %}
+ 
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+ 
+{% block content %}
+    <h2>{{ flatpage.title }}</h2>
+    <p> Селектором по классу меняю цвет и размер текста</p>
+    <hr>
+    <h4 class="new_form_text">{{ flatpage.content }}</h4>
+{% endblock content %}
